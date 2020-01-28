@@ -7,7 +7,7 @@
  * 1) Alexander Stein
  *
  *
- * 2) 2nd member 
+ * 2) Tesfa Tesfaye
  *
  *
  * 3) 3rd member if a group of 3 only
