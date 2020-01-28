@@ -4,10 +4,10 @@
  *
  * @author Jim Teresco, modified by group members:
  * 
- * 1) replace with one group member's name
+ * 1) Alexander Stein
  *
  *
- * 2) replace with another group member's name
+ * 2) 2nd member 
  *
  *
  * 3) 3rd member if a group of 3 only
@@ -26,6 +26,8 @@ public class Collaborate
         System.out.println("And another modifies after this...");
         
         System.out.println("git will save you from a copy and paste disaster.");
+        
+        System.out.println("Hopefully this will upload correctly.");
         
     }
 }
