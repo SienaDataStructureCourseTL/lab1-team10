@@ -12,8 +12,9 @@
  *
  * 3) 3rd member if a group of 3 only
  * 
- * @version Fall 2019
+ * @version Spring 2020
  */
+
 public class Collaborate
 {
 
