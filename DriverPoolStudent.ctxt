@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DriverPoolStudent
+comment0.text=\r\n\ This\ program\ is\ used\ to\ unit\ test\ the\ Pool\ class.\r\n\ The\ format\ of\ the\ dollar\ amount\ is\ not\ important.\r\n\ You\ should\ not\ be\ concerned\ that\ there\ are\ no\ \r\n\ dollar\ signs\ or\ there\ are\ more\ than\ two\ decimal\r\n\ places.\r\n\ \r\n\ @author\ &\ (Alex\ Stein\ &\ Tesfa\ Tesfaye)\ \r\n\ @version\ Spring\ 2020\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

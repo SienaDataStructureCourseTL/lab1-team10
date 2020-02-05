@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Entry
+comment0.text=\r\n\ This\ class\ represents\ an\ entry\ in\ a\ game\ pool.\r\n\ \r\n\ @author\ Prof.\ White\ &\ (Alex\ Stein\ &\ Tesfa\ Tesfaye)\ \r\n\ @version\ Fall\ 2019\r\n
+comment1.params=name\ amount
+comment1.target=Entry(java.lang.String,\ double)
+comment1.text=\r\n\ Constructs\ an\ entry.\r\n\ \r\n\ Precondition\:\ \ amount\ >\ 0.0\r\n\ @param\ name\ The\ name\ of\ the\ person\ making\ the\ entry.\r\n\ @param\ amount\ The\ dollar\ amount\ of\ the\ entry.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ the\ name\ of\ the\ person\ making\ the\ entry.\r\n\ \r\n\ @return\ The\ name\ of\ the\ person\ making\ the\ entry.\r\n
+comment3.params=
+comment3.target=double\ getAmount()
+comment3.text=\r\n\ Returns\ the\ dollar\ amount\ of\ the\ entry.\r\n\ \r\n\ @return\ The\ dollar\ amount\ of\ the\ entry.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Returns\ a\ string\ describing\ the\ state\ of\ this\ entry.\r\n\ \r\n\ @return\ The\ state\ of\ this\ entry.\r\n
+numComments=5

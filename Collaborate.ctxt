@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Collaborate
+comment0.text=\r\n\ Git\ collaboration\ example\ for\ CSIS\ 210\r\n\r\n\ @author\ Jim\ Teresco,\ modified\ by\ group\ members\:\r\n\ \r\n\ 1)\ Alexander\ Stein\r\n\r\n\r\n\ 2)\ Tesfa\ Tesfaye\r\n\r\n\r\n\ 3)\ 3rd\ member\ if\ a\ group\ of\ 3\ only\r\n\ \r\n\ @version\ Spring\ 2020\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

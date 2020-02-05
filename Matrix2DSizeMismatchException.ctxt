@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Matrix2DSizeMismatchException
+comment0.text=\r\n\ An\ exception\ to\ indicate\ that\ two\ Matrix2D\ objects\ are\ not\ the\ same\ size\ when\r\n\ that\ is\ required.\r\n\ \r\n\ @author\ Jim\ Teresco\ &\ (Alex\ Stein\ &\ Tesfa\ Tesfaye)\ \r\n\ @version\ Spring\ 2020\r\n
+comment1.params=size1\ size2
+comment1.target=Matrix2DSizeMismatchException(int,\ int)
+numComments=2
