@@ -172,10 +172,8 @@ public class Matrix2D
             throw new Matrix2DSizeMismatchException(data.length, other.data.length);
         }
 
-<<<<<<< HEAD
-=======
         //add your code here
->>>>>>> 69a1e46bdb6c5a1cd8a7d32b8481454b22f36ed4
+
         Matrix2D sum = new Matrix2D(data.length);
         for (int i=0; i<data.length; i++) {
             for(int j=0; j<data.length; j++){
