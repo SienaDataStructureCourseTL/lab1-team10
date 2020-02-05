@@ -3,8 +3,8 @@
  * matrix operations defined in the Matrix2D
  * class.
  * 
- * @author Jim Teresco, modified by Prof. White 
- * @version Fall 2019
+ * @author Jim Teresco, modified by Prof. White & (Alex Stein & Tesfa) 
+ * @version Spring 2020
  */
 public class DriverMatrix2D
 {
