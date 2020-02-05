@@ -5,8 +5,8 @@
  * dollar signs or there are more than two decimal
  * places.
  * 
- * @author 
- * @version Spring 2019
+ * @author & (Alex Stein & Tesfa Tesfaye) 
+ * @version Spring 2020
  */
 public class DriverPoolStudent
 {
