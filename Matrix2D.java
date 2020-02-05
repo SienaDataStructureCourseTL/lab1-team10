@@ -4,8 +4,8 @@ import java.util.Random;
  *  A class representing a square matrix with some methods to manipulate
  *  such matrices.
  *  
- * @author Jim Teresco, modified by Prof. White and (your names here)
- * @version Fall 2019
+ * @author Jim Teresco, modified by Prof. White and (Alex Stein and Tesfa Tesfaye)
+ * @version Spring 2020
  */
 public class Matrix2D 
 {   
@@ -104,10 +104,18 @@ public class Matrix2D
     public int maxValue()
     {
         //add your code here
-        
-        return -1;
+        int max = 0;
+        for (int i=1; i < data.length; i++) {
+            for(int j=0; j<data.length; j++){
+                if (data[i][j] > max) {
+                    max = data[i][j];
+                }
+
+            }
+        }
+        return max;
     }
-    
+
     /**
      *  Compare two matrices for equality.  Two matricies are equal if they have the
      *  same dimensions and the same elements at every location in the matrix.
@@ -124,10 +132,21 @@ public class Matrix2D
         if (data.length != otr.data.length){
             return false;
         }
+        for(int i=0;i<data.length;i++){
+            for(int j=0;j<data.length;i++) {
+                try {
+                    if(data[i][j]!=(otr.get(i,j))){
+                        return false;
 
-        //add your code here
+                    }
+                } catch (Matrix2DIndexOutOfBoundsException m2de) {
+                    m2de.printStackTrace();
 
+                }
+            }
+        }
         return true;
+
     }
 
     /**
@@ -143,15 +162,25 @@ public class Matrix2D
      *          matrix and this matrix for the same row and column
      *          indexes.
      */ 
-    public Matrix2D add(Matrix2D other) throws Matrix2DSizeMismatchException 
+    public Matrix2D add(Matrix2D other) throws Matrix2DSizeMismatchException,Matrix2DIndexOutOfBoundsException
     {    
+        int[][] newArr;
+        newArr = new int[data.length][data.length];
+        int sum1=0;
+
         if (data.length != other.data.length) {
             throw new Matrix2DSizeMismatchException(data.length, other.data.length);
         }
 
-        //add your code here
-        
-        return null;
+        Matrix2D sum = new Matrix2D(data.length);
+        for (int i=0; i<data.length; i++) {
+            for(int j=0; j<data.length; j++){
+                sum.set(i,j,data[i][j] + other.get(i,j));
+            }
+
+        }
+
+        return sum;
     }
 
     /**
@@ -161,7 +190,11 @@ public class Matrix2D
      */
     public void scale(int by)
     {
-        //add your code here
+        for(int i=0;i< data.length;i++){
+            for(int j=0;j<data.length;i++){
+                data[i][j]=data[i][j]*2;
+            }
+        }
     }
 
     /**
