@@ -3,8 +3,8 @@
  * An exception to indicate that two Matrix2D objects are not the same size when
  * that is required.
  * 
- * @author Jim Teresco
- * @version Fall 2017
+ * @author Jim Teresco & (Alex Stein & Tesfa Tesfaye) 
+ * @version Spring 2020
  */
 public class Matrix2DSizeMismatchException extends Exception
 {
