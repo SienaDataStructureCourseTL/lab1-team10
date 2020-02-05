@@ -1,7 +1,7 @@
 /**
  * This class represents an entry in a game pool.
  * 
- * @author Prof. White
+ * @author Prof. White & (Alex Stein & Tesfa Tesfaye) 
  * @version Fall 2019
  */
 public class Entry
